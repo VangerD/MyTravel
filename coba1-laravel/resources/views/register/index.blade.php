@@ -17,7 +17,7 @@
                     <span class="fa fa-user-o"></span>
                     <h6 class="text-center mt-5 mb-4"><b>DAFTAR</b></h6>
 
-                    <form>
+                    <form action="/register" method="post">@csrf
                         <div class="form-group">
                             <input type="number" class="form-control rounded-left" placeholder="NIK" required>
                         </div>
